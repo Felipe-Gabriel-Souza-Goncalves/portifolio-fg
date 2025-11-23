@@ -1,0 +1,17 @@
+header{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid #444;
+  margin-bottom: 24px;
+}
+
+header ul{padding: 0;}
+header a{
+  padding: 0 8px;
+  color: #65605b;
+}
+header a:focus{
+  color: #646cff;
+}

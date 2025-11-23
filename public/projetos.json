@@ -1,0 +1,155 @@
+[
+  {
+    "id": "0",
+    "nome": "Amazon Prime Fake",
+    "descricao": "",
+    "link": "https://felipegsg.github.io/projeto-back-end-final-2024/",
+    "linguagens": ["html", "javascript"],
+    "img": "amazon.png",
+    "educacional": true
+  },
+  {
+    "id": "1",
+    "nome": "EcoGoods",
+    "descricao": "",
+    "link": "https://felipegsg.github.io/Mercadinho-Nota-Fiscal/",
+    "linguagens": ["html", "javascript"],
+    "img": "ecogoods.png",
+    "educacional": true
+  },
+  {
+    "id": "2",
+    "nome": "Google Classroom Fake",
+    "descricao": "",
+    "link": "https://chat-fake-classroom.onrender.com/",
+    "linguagens": ["html", "javascript"],
+    "img": "fake classroom.png",
+    "educacional": true
+  },
+  {
+    "id": "3",
+    "nome": "Portifólio de jogos",
+    "descricao": "",
+    "link": "https://felipegsg.github.io/Portifolio-jogos/",
+    "linguagens": ["html", "javascript"],
+    "img": "hallownest.png",
+    "educacional": true
+  },
+  {
+    "id": "4",
+    "nome": "Sistema de ocorrências",
+    "descricao": "",
+    "link": "https://sistema-ocorrencias.onrender.com/",
+    "linguagens": ["html", "javascript"],
+    "img": "ocorrencias.png",
+    "educacional": true
+  },
+  {
+    "id": "5",
+    "nome": "Python - Flask",
+    "descricao": "",
+    "link": "https://python-e-flask.onrender.com/poo",
+    "linguagens": ["html", "python"],
+    "img": "python flask.png",
+    "educacional": true
+  },
+  {
+    "id": "6",
+    "nome": "React - Vite",
+    "descricao": "",
+    "link": "https://primeiro-projeto-react-steel-phi.vercel.app/",
+    "linguagens": ["html", "react"],
+    "img": "react vite.png",
+    "educacional": true
+  },
+  {
+    "id": "7",
+    "nome": "TechSolutions",
+    "descricao": "",
+    "link": "https://projeto-reactvite-blue.vercel.app/",
+    "linguagens": ["html", "javascript"],
+    "img": "techsolutions.png",
+    "educacional": true
+  },
+  {
+    "id": "8",
+    "nome": "To-do List",
+    "descricao": "",
+    "link": "https://felipegsg.github.io/to-do-list-localStorage/",
+    "linguagens": ["html", "javascript"],
+    "img": "todo list.png",
+    "educacional": true
+  },
+  {
+    "id": "9",
+    "nome": "Clique-bolinha",
+    "descricao": "",
+    "link": "https://jogo-clique-bolinha.onrender.com/",
+    "linguagens": ["html", "javascript"],
+    "img": "clique bolinha.png",
+    "educacional": false
+  },
+  {
+    "id": "10",
+    "nome": "Cookie Clicker fake",
+    "descricao": "",
+    "link": "https://felipe-gabriel-souza-goncalves.github.io/fake-cookie-clicker/",
+    "linguagens": ["html", "javascript"],
+    "img": "cookie clicker.png",
+    "educacional": false
+  },
+  {
+    "id": "11",
+    "nome": "E-commerce jogos indies",
+    "descricao": "",
+    "link": "https://felipegsg.github.io/ecommerce-finalizado/",
+    "linguagens": ["html", "javascript"],
+    "img": "ecommerce.png",
+    "educacional": false
+  },
+  {
+    "id": "12",
+    "nome": "Jogo da velha",
+    "descricao": "",
+    "link": "https://felipe-gabriel-souza-goncalves.github.io/Jogo-da-velha/",
+    "linguagens": ["html", "javascript"],
+    "img": "jogo da velha.png",
+    "educacional": false
+  },
+  {
+    "id": "13",
+    "nome": "Gerenciador de matrizes",
+    "descricao": "",
+    "link": "https://felipe-gabriel-souza-goncalves.github.io/criador-matriz/matriz.html",
+    "linguagens": ["html", "javascript"],
+    "img": "matrizes.png",
+    "educacional": false
+  },
+  {
+    "id": "14",
+    "nome": "Projeto relógio",
+    "descricao": "",
+    "link": "https://felipe-gabriel-souza-goncalves.github.io/Projeto-Relogio/",
+    "linguagens": ["html", "javascript"],
+    "img": "relogio.png",
+    "educacional": false
+  },
+  {
+    "id": "15",
+    "nome": "Manipulador de cores",
+    "descricao": "",
+    "link": "https://felipe-gabriel-souza-goncalves.github.io/RBG-Clip-Path-HTML/",
+    "linguagens": ["html", "javascript"],
+    "img": "rgb.png",
+    "educacional": false
+  },
+  {
+    "id": "16",
+    "nome": "Senhas aleatórias",
+    "descricao": "",
+    "link": "https://felipe-gabriel-souza-goncalves.github.io/Senhas_Aleatorias/",
+    "linguagens": ["html", "javascript"],
+    "img": "senhas aleatorias.png",
+    "educacional": false
+  }
+]

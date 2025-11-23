@@ -1,0 +1,102 @@
+.carrossel{
+  width: 100%;
+  max-width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  border-radius: 12px;
+}
+
+.carrossel .btn-prev button,
+.carrossel .btn-post button{
+  height: 100%;
+}
+
+.carrossel .btn-prev button{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.carrossel .btn-post button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-prev img{
+  rotate: 180deg;
+}
+
+.itensCarrossel:has(.card-tech){
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+
+.card-tech{
+  border-radius: 12px;
+  border: 1px solid #434343;
+  background-color: #242424;
+  padding: 8px;
+  margin: 16px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-tech h2 {
+  margin: 0;
+}
+.img-item-carrossel{
+  height: 50px;
+  /* aspect-ratio: 1 / 1; */
+}
+
+.item-ativo,
+.card-tech:hover,
+.card-projetos:hover{
+  border: 1px solid white;
+  background-color: #2c2c2c;
+  cursor: pointer;
+}
+
+
+
+.itensCarrossel:has(.card-projetos){
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 24px;
+}
+
+.card-projetos{
+  margin: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #434343;
+
+}
+.card-projetos img{
+  width: 500px;
+  height: unset;
+}
+
+@media (prefers-color-scheme: light) {
+  .item-ativo,
+  .card-tech:hover,
+  .card-projetos:hover{
+    border: 1px solid #d1d1d1;
+    background-color: #e7e7e7;
+  }
+  
+  .carrossel{
+    background-color: #ccc;
+  }
+
+  .card-tech,
+  .card-projetos{
+    background: #f4f4f4;
+  }
+}
