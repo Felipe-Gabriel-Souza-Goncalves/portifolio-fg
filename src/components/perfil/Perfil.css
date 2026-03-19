@@ -15,6 +15,7 @@
 #perfil-esquerdo{
   border-right: 2px solid #333;
 }
+
 #perfil-esquerdo img{
   width: 250px;
   border-radius: 50%;
@@ -22,7 +23,7 @@
 
 #perfil-contatos p{
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 
 @media (max-width: 900px) {

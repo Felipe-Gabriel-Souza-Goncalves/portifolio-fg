@@ -10,7 +10,7 @@ import techsolutions from "../assets/projects/educacional/techsolutions.png";
 import todoList from "../assets/projects/educacional/todo-list.png";
 
 import cliqueBolinha from "../assets/projects/pessoal/clique-bolinha.png";
-import cookieClicker from "../assets/projects/pessoal/cookie-clicker.png";
+import potatoClicker from "../assets/projects/pessoal/potato-clicker.png";
 import ecommerce from "../assets/projects/pessoal/ecommerce.png";
 import jogoDaVelha from "../assets/projects/pessoal/jogo-da-velha.png";
 import matrizes from "../assets/projects/pessoal/matrizes.png";
@@ -32,7 +32,7 @@ const imgProjetos = {
   },
   priv: {
     cliqueBolinha,
-    cookieClicker,
+    potatoClicker,
     ecommerce,
     jogoDaVelha,
     matrizes,

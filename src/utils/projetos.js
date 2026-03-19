@@ -93,11 +93,11 @@ const projetos = [
   },
   {
     id: "10",
-    nome: "Cookie Clicker fake",
+    nome: "Potato Clicker",
     descricao: "",
-    link: "https://felipe-gabriel-souza-goncalves.github.io/fake-cookie-clicker/",
+    link: "https://felipe-gabriel-souza-goncalves.github.io/potato-clicker/",
     linguagens: ["html", "javascript"],
-    img: imgProjetos.priv.cookieClicker,
+    img: imgProjetos.priv.potatoClicker,
     educacional: false,
   },
   {
@@ -167,6 +167,7 @@ const tecnologias = {
       imgTecnologias.back.dart,
       imgTecnologias.back.php,
     ],
+    ["Intermediário", "Básico/Intermediário", "Básico", "Intermediário", "Básico", "Básico"]
   ],
   frontEnd: [
     ["HTML", "CSS", "React", "Flutter"],
@@ -176,6 +177,7 @@ const tecnologias = {
       imgTecnologias.front.react,
       imgTecnologias.front.flutter,
     ],
+    ["Intermediário", "Intermediário", "Básico", "Básico"]
   ],
   outros: [
     ["Git", "Postman", "MySQL", "Figma", "Vscode"],

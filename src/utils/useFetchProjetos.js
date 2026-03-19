@@ -8,7 +8,6 @@ function useFetchProjetos() {
       try {
         const response = await fetch("/projetos.json");
         const jsonData = await response.json();
-        console.log("fuck")
         setData(jsonData);
       } catch (err) {
         console.error("Erro ao buscar dados:", err);

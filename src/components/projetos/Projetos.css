@@ -3,3 +3,9 @@
   padding: 8px 0px;
   margin: 36px 0;
 }
+
+@media (prefers-color-scheme: light) {
+  #faixaProjetos{
+    background: #e3e3e3;
+  }
+}
