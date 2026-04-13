@@ -14,9 +14,7 @@ function Footer(){
       </div>
       <div>
         <p>Caso encontre algum erro no projeto, envie um Issue no repositório</p>
-        <span>Repositório: 
-          <a target="_blank" href="https://github.com/Felipe-Gabriel-Souza-Goncalves/Portifolio">Portifólio</a>
-        </span>
+          <a target="_blank" href="https://github.com/Felipe-Gabriel-Souza-Goncalves/Portifolio">Repositório do portifólio</a>
       </div>
     </footer>
   </>

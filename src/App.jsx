@@ -15,7 +15,7 @@ function App() {
     <>
       <Header />
       <Perfil/>
-      <ListaProjetos></ListaProjetos>
+      {/* <ListaProjetos></ListaProjetos> */}
       <Tecnologias />
       <Projetos />
       <Footer /> 

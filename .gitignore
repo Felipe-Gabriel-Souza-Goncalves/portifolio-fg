@@ -26,3 +26,6 @@ dist-ssr
 .env
 token.txt
 server/
+
+src/utils/tecnologies.js
+src/utils/useFetchProjetos.js
