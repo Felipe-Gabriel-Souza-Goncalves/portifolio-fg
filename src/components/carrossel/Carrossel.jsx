@@ -1,11 +1,16 @@
 import { useState } from "react";
 import seta from "../../assets/icons/setaDireita.svg";
-import { projetos, tecnologias } from "../../utils/projetos.js";
+import { tecnologias } from "../../utils/tecnologies.js";
+import useFetchProjetos from "../../utils/useFetchProjetos.js";
 import "./Carrossel.css";
 
 function Carrossel({ tipo, categoria }) {
+
   const [crr, moveItem] = useState(undefined);
   const [posX, translate] = useState(0);
+
+  const projetos = useFetchProjetos();
+  if(!projetos) return <>Carregando...</>
 
   function prevItem() {
     const itens = document.querySelectorAll(`#carrossel-${categoria} div`);
@@ -18,7 +23,7 @@ function Carrossel({ tipo, categoria }) {
   function postItem() {
     const itens = document.querySelectorAll(`#carrossel-${categoria} div`);
     let nextPos = (crr + 1) % itens.length || 0;
-    console.log(nextPos);
+    // console.log(nextPos);
 
     moveItem(nextPos);
     updateFocus(nextPos);
@@ -39,7 +44,7 @@ function Carrossel({ tipo, categoria }) {
 
   function updateProjetos(pos) {
     const itens = document.querySelectorAll(`#carrossel-${categoria} div`);
-    console.log(itens.length);
+    // console.log(itens.length);
 
     // esconde todos primeiro
     itens.forEach((i) => (i.style.display = "none"));
@@ -56,6 +61,7 @@ function Carrossel({ tipo, categoria }) {
   return (
     <>
       <div className="carrossel">
+        {/* BOTÃO DE VOLTAR */}
         <div className="btn-prev">
           <button onClick={prevItem}>
             <img src={seta} alt="<" />
@@ -101,8 +107,7 @@ function Carrossel({ tipo, categoria }) {
 
               // PROJETOS
               case "educacional":
-                return projetos
-                  .filter((p) => p.educacional == true)
+                return projetos?.filter((p) => p.educacional == true)
                   .map((projeto, i) => (
                     <div key={i} className="card-projetos">
                       <a target="_blank" href={projeto.link[0]}>
@@ -113,8 +118,7 @@ function Carrossel({ tipo, categoria }) {
                   ));
 
               case "pessoal":
-                return projetos
-                  .filter((p) => p.educacional == false)
+                return projetos?.filter((p) => p.educacional == false)
                   .map((projeto, i) => (
                     <div key={i} className="card-projetos">
                       <a target="_blank;" href={projeto.link[0]}>
@@ -122,7 +126,7 @@ function Carrossel({ tipo, categoria }) {
                         <h2>{projeto.nome}</h2>
                       </a>
                     </div>
-                  ));
+                  )) || <>Carregando...</>;
 
               default:
                 return <div>Categoria não especificada</div>;
@@ -130,6 +134,7 @@ function Carrossel({ tipo, categoria }) {
           })()}
         </div>
 
+        {/* BOTÃO DE AVANÇAR */}
         <div className="btn-post">
           <button onClick={postItem}>
             <img src={seta} alt="<" />

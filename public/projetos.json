@@ -5,7 +5,7 @@
     "descricao": "Simula as interfaces da Amazon Prime para estudar design com CSS e testar funcionalidades de CRUD com o pacote json-server do Node.js, também foi utilizado validação de dados e fontes importadas",
     "link": ["https://felipegsg.github.io/projeto-back-end-final-2024/", "https://github.com/felipegsg/projeto-back-end-final-2024/"],
     "linguagens": ["html", "javascript"],
-    "img": "amazon.png",
+    "img": "edu.amazon",
     "educacional": true
   },
   {
@@ -14,7 +14,7 @@
     "descricao": "Rápido projeto com principal intuito de aprender elementos sendo carregados via informações de API (json estático) e simulação de carrinho de compras/efetuar compras",
     "link": ["https://felipegsg.github.io/Mercadinho-Nota-Fiscal/", "https://github.com/felipegsg/Mercadinho-Nota-Fiscal/"],
     "linguagens": ["html", "javascript"],
-    "img": "ecogoods.png",
+    "img": "edu.ecogoods",
     "educacional": true
   },
   {
@@ -23,7 +23,7 @@
     "descricao": "1ª versão apresentada de um chat online utilizando express e socket.io em que usuários podem customizar o usuário com funções limitadas enviar mensagens simples para outros usuários dentro da plataforma",
     "link": ["https://chat-fake-classroom.onrender.com/", "https://github.com/felipegsg/chat-fake-classroom"],
     "linguagens": ["html", "javascript"],
-    "img": "fake classroom.png",
+    "img": "edu.fakeClassroom",
     "educacional": true
   },
   {
@@ -32,7 +32,7 @@
     "descricao": "Para apresentação da matéria de Front-End, esse projeto redireciona para 4 jogos feitos: Jogo da velha; Jogo da forca; Troca-palavras e Clique-bolinha. Todos foram tematizados do jogo Hollow Knight",
     "link": ["https://felipegsg.github.io/Portifolio-jogos/", "https://github.com/felipegsg/Portifolio-jogos/"],
     "linguagens": ["html", "javascript"],
-    "img": "hallownest.png",
+    "img": "edu.hallownest",
     "educacional": true
   },
   {
@@ -41,7 +41,7 @@
     "descricao": "Contém cadastro/login, envio de ocorrência com arquivos, visualização por login de administrador e edição/exclusão de informações, contribuiu para aprendizado do ambiente Node.js e pacotes como multer",
     "link": ["https://sistema-ocorrencias.onrender.com/", "https://github.com/felipegsg/sistema-ocorrencias"],
     "linguagens": ["html", "javascript"],
-    "img": "ocorrencias.png",
+    "img": "edu.ocorrencias",
     "educacional": true
   },
   {
@@ -50,7 +50,7 @@
     "descricao": "Primeira interação de Python com HTML por meio do micro framework Flask, aprendendo principalmente em mostrar informações dinâmicamente, hospedagem e navegação entre páginas",
     "link": ["https://python-e-flask.onrender.com/", "https://github.com/FelipeGSG/Python_e_Flask"],
     "linguagens": ["html", "python"],
-    "img": "python flask.png",
+    "img": "edu.pythonFlask",
     "educacional": true
   },
   {
@@ -59,7 +59,7 @@
     "descricao": "Com auxílio de IA, esse projeto educacional é o primeiro projeto em que foi utilizado React e/ou Vite, treinando conceitos de useState, componentes e sintaxe do React",
     "link": ["https://primeiro-projeto-react-steel-phi.vercel.app/", "https://primeiro-projeto-react-steel-phi.vercel.app/"],
     "linguagens": ["html", "react"],
-    "img": "react vite.png",
+    "img": "edu.reactVite",
     "educacional": true
   },
   {
@@ -68,7 +68,7 @@
     "descricao": "Projeto estático para treinar conceitos de abas, componentes e maior integração de CSS com React. Apresenta algumas informações de hardware, software e tecnologias.",
     "link": ["https://projeto-reactvite-blue.vercel.app/", "https://github.com/FelipeGSG/projeto-reactvite"],
     "linguagens": ["html", "javascript", "react"],
-    "img": "techsolutions.png",
+    "img": "edu.techsolutions",
     "educacional": true
   },
   {
@@ -77,7 +77,7 @@
     "descricao": "Site de to-do list padrão, treinando conceitos básicos de interação com o DOM, manipulação de armazenamento com localStorage e estruturas de dados de tipo array",
     "link": ["https://felipegsg.github.io/to-do-list-localStorage/", "https://github.com/felipegsg/to-do-list-localStorage/"],
     "linguagens": ["html", "javascript"],
-    "img": "todo list.png",
+    "img": "edu.todoList",
     "educacional": true
   },
   {
@@ -86,7 +86,7 @@
     "descricao": "Com uma premissa simples e temático do jogo Hollow Knight, o jogador deve testar seus reflexos ao clicar dentro do tempo no alvo, há diversos placares competitivos utilizando socket.io, também há diferentes dificuldades",
     "link": ["https://jogo-clique-bolinha.onrender.com/", "https://github.com/felipe-gabriel-souza-goncalves/jogo-clique-bolinha"],
     "linguagens": ["html", "javascript"],
-    "img": "clique bolinha.png",
+    "img": "priv.cliqueBolinha",
     "educacional": false
   },
   {
@@ -95,7 +95,7 @@
     "descricao": "Jogo web clicker inspirado em Cookie Clicker, é um jogo solo com upgrades, powerups, conquistas, configurações, estatísticas e skins cujo único objetivo é ganhar mais batatas montando sua própria estratégia",
     "link": ["https://felipe-gabriel-souza-goncalves.github.io/potato-clicker/", "https://github.com/felipe-gabriel-souza-goncalves/potato-clicker/"],
     "linguagens": ["html", "javascript"],
-    "img": "potato clicker.png",
+    "img": "priv.potatoClicker",
     "educacional": false
   },
   {
@@ -104,7 +104,7 @@
     "descricao": "Inicialmente nas aulas Linguagens de Marcação, é uma loja fictícia de jogos indies com  diversas categorias de jogos, além de componentes vanilla usando customElements e pesquisas personalizadas",
     "link": ["https://felipe-gabriel-souza-goncalves.github.io/ecommerce-finalizado/", "https://github.com/felipe-gabriel-souza-goncalves/ecommerce-finalizado/"],
     "linguagens": ["html", "javascript"],
-    "img": "ecommerce.png",
+    "img": "priv.ecommerce",
     "educacional": false
   },
   {
@@ -113,7 +113,7 @@
     "descricao": "Clássico jogo da velha feito com a parceria do desenvolvedor <a href='https://github.com/GuilhSchneider' target='_blank'>GuilhSchneider</a>",
     "link": ["https://felipe-gabriel-souza-goncalves.github.io/Jogo-da-velha/", "https://github.com/felipe-gabriel-souza-goncalves/Jogo-da-velha/"],
     "linguagens": ["html", "javascript"],
-    "img": "jogo da velha.png",
+    "img": "priv.jogoDaVelha",
     "educacional": false
   },
   {
@@ -122,7 +122,7 @@
     "descricao": "Focado totalmente na matemática de matrizes, consta com operações, criação e animação das operações de matrizes, inicialmente com o intuito de ser utilizado como ferramenta de auxílio em sala de aula",
     "link": ["https://felipe-gabriel-souza-goncalves.github.io/criador-matriz/matriz.html", "https://github.com/felipe-gabriel-souza-goncalves/criador-matriz"],
     "linguagens": ["html", "javascript"],
-    "img": "matrizes.png",
+    "img": "priv.matrizes",
     "educacional": false
   },
   {
@@ -131,7 +131,7 @@
     "descricao": "Um relógio, cronômetro e temporizador, em JavaScript, foi feito testando novos conceitos de closures, intervalos e tema do dispositivo na parte do front-end",
     "link": ["https://felipe-gabriel-souza-goncalves.github.io/Projeto-Relogio/", "https://github.com/felipe-gabriel-souza-goncalves/Projeto-Relogio/"],
     "linguagens": ["html", "javascript"],
-    "img": "relogio.png",
+    "img": "priv.relogio",
     "educacional": false
   },
   {
@@ -140,7 +140,7 @@
     "descricao": "Primeiro projeto focado totalmente na manipulação de DOM, criando figuras, alterando sua cor, alterar sua forma via clip-path, fora outras funcionalidades extras, focado em JavaScript",
     "link": ["https://felipe-gabriel-souza-goncalves.github.io/RBG-Clip-Path-HTML/", "https://github.com/felipe-gabriel-souza-goncalves/RBG-Clip-Path-HTML/"],
     "linguagens": ["html", "javascript"],
-    "img": "rgb.png",
+    "img": "priv.rgb",
     "educacional": false
   },
   {
@@ -149,7 +149,7 @@
     "descricao": "Gera e testa senhas personalizadas de 4 a 12 caracteres com números, letras maiúsculas/minúsculas e caracteres especiais, inclusive inserindo uma regra personalizada de qual ordem desses fatores deseja gerar",
     "link": ["https://felipe-gabriel-souza-goncalves.github.io/Senhas_Aleatorias/", "https://github.com/felipe-gabriel-souza-goncalves/Senhas_Aleatorias/"],
     "linguagens": ["html", "javascript"],
-    "img": "senhas aleatorias.png",
+    "img": "priv.senhasAleatorias",
     "educacional": false
   }
 ]

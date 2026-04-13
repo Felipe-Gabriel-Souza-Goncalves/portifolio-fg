@@ -7,7 +7,7 @@ function Header(){
         <a href="#perfil-esquerdo">Perfil</a>
         <a href="#tecnologias">Tecnologias</a>
         <a href="#projetos">Projetos </a>
-        <a href="#footer">Rodapé</a>
+        <a href="#footer">Contatos</a>
 
       </ul>
     </header>
