@@ -5,7 +5,6 @@ async function comunicarAPI() {
   try {
     useEffect(() => {
       (async () =>{
-        // const response = await fetch("http://localhost:5173/githubRepos");
 
         // if (!response.ok) {
         //   console.log("Erro na resposta");
@@ -47,22 +46,22 @@ async function comunicarAPI() {
 }
 
 export default function ListaProjetos() {
-  comunicarAPI()
-    .then((response) => {
-      console.log(response)
-      if (!response.ok) {
-        return <></>;
-      } else {
-        return response.json();
-      }
-    })
-    .then(({repos, countLing}) => {
-      console.log(repos)
-      console.log(countLing)
-      // const projetos = data.data.user.repositories.nodes;
-      // console.log(projetos);
-    })
-    .catch((err) => {
-      console.log("Erro", err);
-    });
+  // comunicarAPI()
+  //   .then((response) => {
+  //     console.log(response)
+  //     if (!response.ok) {
+  //       return <></>;
+  //     } else {
+  //       return response.json();
+  //     }
+  //   })
+  //   .then(({repos, countLing}) => {
+  //     console.log(repos)
+  //     console.log(countLing)
+  //     // const projetos = data.data.user.repositories.nodes;
+  //     // console.log(projetos);
+  //   })
+  //   .catch((err) => {
+  //     console.log("Erro", err);
+  //   });
 }

@@ -1,4 +1,5 @@
 // Projetos
+// Educacionais
 import amazon from "../assets/projects/educacional/amazon.png";
 import ecogoods from "../assets/projects/educacional/ecogoods.png";
 import fakeClassroom from "../assets/projects/educacional/fake-classroom.png";
@@ -9,6 +10,7 @@ import reactVite from "../assets/projects/educacional/react-vite.png";
 import techsolutions from "../assets/projects/educacional/techsolutions.png";
 import todoList from "../assets/projects/educacional/todo-list.png";
 
+// Pessoais
 import cliqueBolinha from "../assets/projects/pessoal/clique-bolinha.png";
 import potatoClicker from "../assets/projects/pessoal/potato-clicker.png";
 import ecommerce from "../assets/projects/pessoal/ecommerce.png";
@@ -17,6 +19,11 @@ import matrizes from "../assets/projects/pessoal/matrizes.png";
 import relogio from "../assets/projects/pessoal/relogio.png";
 import rgb from "../assets/projects/pessoal/rgb.png";
 import senhasAleatorias from "../assets/projects/pessoal/senhas-aleatorias.png";
+import todoListTkinter from "../assets/projects/pessoal/to-do-list-tkinter.png";
+import notacaoNumeros from "../assets/projects/pessoal/notacao-numeros.png";
+import formulasPython from "../assets/projects/pessoal/formulas-python.png";
+import adivinheNumero from "../assets/projects/pessoal/adivinhe-numero-java.png";
+import sistemaBancario from "../assets/projects/pessoal/sistema-bancario.png";
 
 const imgProjetos = {
   edu: {
@@ -39,6 +46,11 @@ const imgProjetos = {
     relogio,
     rgb,
     senhasAleatorias,
+    adivinheNumero,
+    sistemaBancario,
+    todoListTkinter,
+    notacaoNumeros,
+    formulasPython
   },
 };
 

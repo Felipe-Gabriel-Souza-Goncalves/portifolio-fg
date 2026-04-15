@@ -110,7 +110,7 @@ function Carrossel({ tipo, categoria }) {
                 return projetos?.filter((p) => p.educacional == true)
                   .map((projeto, i) => (
                     <div key={i} className="card-projetos">
-                      <a target="_blank" href={projeto.link[0]}>
+                      <a target="_blank" href={projeto.link[0] || "Esse projeto não possui link de execução"}>
                         <img className="img-item-carrossel" src={projeto.img} alt={projeto.nome} />
                         <h2>{projeto.nome}</h2>
                       </a>
@@ -121,7 +121,7 @@ function Carrossel({ tipo, categoria }) {
                 return projetos?.filter((p) => p.educacional == false)
                   .map((projeto, i) => (
                     <div key={i} className="card-projetos">
-                      <a target="_blank;" href={projeto.link[0]}>
+                      <a target="_blank;" href={projeto.link[0] || "Esse projeto não possui link de execução"}>
                         <img className="img-item-carrossel" src={projeto.img} alt={projeto.nome} />
                         <h2>{projeto.nome}</h2>
                       </a>

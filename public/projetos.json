@@ -151,5 +151,51 @@
     "linguagens": ["html", "javascript"],
     "img": "priv.senhasAleatorias",
     "educacional": false
+  },
+  {
+    "id": "17",
+    "nome": "To-do List + Tkinter",
+    "descricao": "App de to-do list utilizando a GUI Tkinter do Python, para adicionar, ler e remover itens da lista de tarefas, estudando conceitos de manipulação da interface gráfica",
+    "link": ["https://github.com/Felipe-Gabriel-Souza-Goncalves/TO-DO-List-tkinter", null],
+    "linguagens": ["python"],
+    "img": "priv.todoListTkinter",
+    "educacional": false
+  },
+  {
+    "id": "18",
+    "nome": "Notação números",
+    "descricao": "Focado em ser um projeto utilitário no qual recebe um parâmetro que possua valores númericos, valida a informação e retorna na forma reduzida com algumas modificações previamente especificadas, incluindo notação científica",
+    "link": ["https://github.com/Felipe-Gabriel-Souza-Goncalves/Notacao-numeros", null],
+    "linguagens": ["python"],
+    "img": "priv.notacaoNumeros",
+    "educacional": false
+  },
+  {
+    "id": "19",
+    "nome": "Fórmulas e Python",
+    "descricao": "Primeiro projeto pessoal feito em Python que tratou de utilizar variáveis, estruturas lógicas/repetição/tratamento de exceções em combinação com conceitos da aritmética e geometria do ensino médio",
+    "link": ["https://colab.research.google.com/drive/1wafbFvmCm5IhZQK335BypCRGOA0uGmJL?usp=sharing","https://github.com/Felipe-Gabriel-Souza-Goncalves/F-rmulas-em-Python"],
+    "linguagens": ["python"],
+    "img": "priv.formulasPython",
+    "educacional": false
+  },
+  
+  {
+    "id": "20",
+    "nome": "Adivinhe o número",
+    "descricao": "Um jogo feito em diferentes linguagens com o objetivo de adivinhar o número gerado dentro do alcance determinado pela dificuldade. Possui 3 versões: HTML+JS; Python; Java. A imagem mostra uma partida na versão em Java",
+    "link": [ "https://felipe-gabriel-souza-goncalves.github.io/Adivinhe-o-n-mero/HTML_JS/index.html","https://github.com/Felipe-Gabriel-Souza-Goncalves/Adivinhe-o-n-mero"],
+    "linguagens": ["html", "javascript", "python", "java"],
+    "img": "priv.adivinheNumero",
+    "educacional": false
+  },
+  {
+    "id": "21",
+    "nome": "Simulação bancária",
+    "descricao": "Estudo de variáveis, estruturas lógicas e de repetição para simular a criação de um usuário (nome/senha) e ações de depositar e sacar ou sair para criar/trocar de usuário",
+    "link": ["https://github.com/Felipe-Gabriel-Souza-Goncalves/Simulacao_sistema_bancario", null],
+    "linguagens": ["java"],
+    "img": "priv.sistemaBancario",
+    "educacional": false
   }
 ]

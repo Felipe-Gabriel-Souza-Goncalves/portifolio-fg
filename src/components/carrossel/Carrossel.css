@@ -79,6 +79,7 @@
 
 }
 .card-projetos img{
+  aspect-ratio: 5 / 3;
   width: 500px;
   height: unset;
 }
