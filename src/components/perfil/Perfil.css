@@ -2,7 +2,6 @@
   margin: 0 auto;
   display: flex;
   width: 75%;
-  gap: 24px;
 }
 
 #perfil-esquerdo,
@@ -10,6 +9,8 @@
   width: 50%;
   padding: 24px;
   box-sizing: border-box;
+  max-height: 436px;
+  overflow-y: auto;
 }
 
 #perfil-esquerdo{

@@ -35,12 +35,14 @@
 
 
 .card-tech{
+  box-sizing: border-box;
   border-radius: 12px;
   border: 1px solid #434343;
   background-color: #242424;
   padding: 8px;
-  margin: 16px;
-  width: 120px;
+  margin: 16px 12px;
+  min-width: 140px;
+  aspect-ratio: 28 / 25;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -51,7 +53,6 @@
 }
 .img-item-carrossel{
   height: 50px;
-  /* aspect-ratio: 1 / 1; */
 }
 
 .item-ativo,
@@ -84,7 +85,7 @@
   height: unset;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   .item-ativo,
   .card-tech:hover,
   .card-projetos:hover{
@@ -99,5 +100,56 @@
   .card-tech,
   .card-projetos{
     background: #f4f4f4;
+  }
+} */
+
+@media (max-width: 1000px) {
+  .itensCarrossel:has(.card-tech){
+    overflow: auto;
+  }
+
+  .carrossel:has(.card-tech) .btn-prev, 
+  .carrossel:has(.card-tech) .btn-post
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .card-tech{
+    min-width: 120px;
+  }
+  .card-tech h2{
+    font-size: 1.25em;
+  }
+}
+
+@media (max-width: 780px) {
+  .card-projetos img{
+    width: 320px;
+  }
+  .itensCarrossel:has(.card-projetos){
+    gap: 0;
+  }
+
+  .carrossel:has(.card-projetos) .btn-prev button, 
+  .carrossel:has(.card-projetos) .btn-post button{
+    padding: 0.6em 0.4em;
+  }
+}
+
+@media (max-width: 420px) {
+  .card-projetos img{
+    width: 270px;
+  }
+
+  .itensCarrossel:has(.card-projetos){
+    overflow-x: auto;
+  }
+
+  .carrossel:has(.card-projetos) .btn-prev, 
+  .carrossel:has(.card-projetos) .btn-post
+  {
+    display: none;
   }
 }

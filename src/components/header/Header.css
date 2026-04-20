@@ -1,6 +1,7 @@
 header{
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -18,3 +19,19 @@ header a{
 header a:focus{
   color: #646cff;
 }
+
+/* @media (prefers-color-scheme: light) {
+  header{
+    background-color: #646cff;
+    color: white;
+    border-color: transparent;
+  }
+
+  header a{
+    color: rgb(236, 236, 236) !important;
+  }
+  header a:focus{
+    background-color: white;
+  }
+
+} */

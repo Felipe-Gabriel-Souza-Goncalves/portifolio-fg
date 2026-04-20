@@ -6,6 +6,7 @@ import "./Carrossel.css";
 
 function Carrossel({ tipo, categoria }) {
 
+  console.log(tipo, categoria) 
   const [crr, moveItem] = useState(undefined);
   const [posX, translate] = useState(0);
 
